@@ -4,8 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- *
- * @author alumne
+ AQUESTA LÍNIA LA MODIFICO DESDE EL GITHUB REMOT 
  */
 public class Practica1 {
 
