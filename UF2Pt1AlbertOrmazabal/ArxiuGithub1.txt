@@ -1,0 +1,1 @@
+Aquest arxiu el creo per tal de provar com s'actualitza un fitxer del remot al local.
