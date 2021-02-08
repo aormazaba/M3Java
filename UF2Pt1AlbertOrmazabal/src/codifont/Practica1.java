@@ -1,10 +1,12 @@
 package codifont;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
 /**
  AQUESTA LÍNIA LA MODIFICO DESDE EL GITHUB REMOT 
+ 
+ AFEGEIXO UNA SEGONA LÍNIA ARA EN LOCAL
+
  */
 public class Practica1 {
 
