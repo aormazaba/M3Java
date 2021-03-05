@@ -129,26 +129,23 @@ public class Cadena {
     public static String juntaSaltejats(int num, String... cadenes) {
 
         int cont = 0;
-        String resultat = "", resultatrim = "";
-        int longitud;
+        String resultat = "";
+        int longitud=0;
         
         if (cadenes == null) return null;
         if (num < 1) return "0";
-        if (num >= 1 && cadenes.length == 0) return "0";
+        if (cadenes.length == 0) return "0";
                 
 
-        String[] vector = new String[cadenes.length];
-        for (int i = 0; i < vector.length; i++) {
-            if (cadenes[i]==null) cadenes[i]="null ";
-            vector[i] = cadenes[i];
+        for (int i = 0; i < cadenes.length; i++) {
+            if (cadenes[i]==null) cadenes[i]="null";
         }
 
-        for (int i = 0; i < vector.length; i += num) {
-            resultat = resultat + vector[i];
-            resultatrim = resultatrim + vector[i].trim();
+        for (int i = 0; i < cadenes.length; i += num) {
+            resultat = resultat + cadenes[i];
+            longitud += cadenes[i].trim().length();
 
         }
-        longitud = resultatrim.length();
 
         return longitud + ":" + resultat;
     }
